@@ -7,13 +7,13 @@ This modules defines a function ``say_my_name(first_name, last_name="")``.
 Usage
 =====
 
-``say_my_name(...)`` prints "My name is <first_name> <last_name>".
+``say_my_name(...)`` prints "My name is <first_name> <last_name>" .
 
 ::
 
     >>> say_my_name = __import__('3-say_my_name').say_my_name
-    >>> say_my_name("Amina", "Ali")
-    My name is Amina Ali
+    >>> say_my_name("Amina", "Alifarah")
+    My name is Amina Alifarah
 
 ::
 
