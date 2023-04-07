@@ -3,7 +3,7 @@
 
 class LockedClass:
     """
-    prevent's user from instantiating new LockedClass attribute for attributes called 'first_name'
+    prevent's user from instantiating new LockedClass attribute for anything but attributes called 'first_name'
     """
 
     _slot_ = ["first_name"]
